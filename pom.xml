@@ -21,18 +21,19 @@
     </properties>
 
     
-    <distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>a0bdlik6tnfce-artifactory-primary-0-snapshots</name>
-        <url>https://devopskesav.jfrog.io/artifactory/libs-snapshot</url>
-    </snapshotRepository>
+ <distributionManagement>
     <repository>
         <id>central</id>
-        <name>a0bdlik6tnfce-artifactory-primary-0-releases</name>
-        <url>https://devopskesav.jfrog.io/artifactory/libs-releases</url>
-    </repository>	
+        <name>a0anpa2hmdfc5-artifactory-primary-0-releases</name>
+        <url>https://anilkumar7.jfrog.io/artifactory/anil</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0anpa2hmdfc5-artifactory-primary-0-snapshots</name>
+        <url>https://anilkumar7.jfrog.io/artifactory/anil</url>
+    </snapshotRepository>
 </distributionManagement>
+
     
     <dependencies>
         <dependency>
